@@ -1,0 +1,92 @@
+@media(max-width: 480px) {
+	.container {
+		width: 100%;
+		margin: auto;
+		padding: 0 15px;
+	}
+	.top .social-links {
+		display: none;
+	}
+	.top .shopping-info p a:first-child {
+		display: none;
+	}
+	.top .shopping-info p a:last-child {
+		display: inline-block;
+	}
+	#sidemenu {
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;*/
+	display: block;
+	background-color: rgba(0,0,0,0.9);
+	width: 0;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9;
+	transition: .4s;
+	}
+	#sidemenu a {
+		display: block;
+		line-height: 1.9;
+		color: white;
+		text-transform: capitalize;
+		font-size: 30px;
+		padding: 30px 10px 30px 20px;
+	}
+	#sidemenu #close-sidemenu {
+		color: white;
+		font-size: 40px;
+	}
+	.second-bar {
+		display: none;
+	}
+	.second nav {
+		display: none;
+	}
+	.banner-contexts h1 {
+		font-size: 50px;
+	}
+	.banner-contexts h4 {
+	font-size: 18px;
+	font-weight: 900;
+}
+	.banner-contexts p a {
+		padding: 8px 18px;
+		font-size: 16px;
+	}
+	.product-contexts {
+		flex-direction: column;
+	}
+	.product-box {
+		width: 98%;
+		margin: 15px auto;
+		
+	}
+	.products-slider {
+
+	}
+	.products-slider .img-box {
+		width: 98%;
+		margin: 15px auto;
+	}
+	.img-box:hover .btn a {
+		top: 350px;
+	}
+	.blog-boxes {
+		flex-direction: column;
+	}
+	.blog-box {
+		width: 98%;
+		margin: 15px auto;
+	}
+	.footer-contexts {
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-newsletter form input[placeholder] {
+	text-align: center;
+}
+}
